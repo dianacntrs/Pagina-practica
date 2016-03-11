@@ -1,0 +1,146 @@
+a{
+	color:#DD4F24;
+}
+body {
+	background: #EFEFEF;
+	color: #4c4c4c;
+	font-family: "Open Sans";
+	font-size: 16px;
+	margin: 0;
+}
+
+header {
+	background: #434343;
+	color: white;
+	margin: 0;
+	padding: 0.5em;
+	width: 100%;
+}
+
+header, figure, header h1
+{
+	display: inline-block;
+	vertical-align: top;
+}
+
+header h1 
+{
+	font-size: 20 px;
+	font-weight: normal;
+	margin: 1em 0 0 1em;
+	width: 80%;
+}
+
+header #avatar img 
+{
+	float: right;
+    width: 60px;
+    float: left;
+}
+
+header #avatar figcaption
+{
+	background: #22BCE0;
+	float: right;
+	height:65px;
+	padding-right: 10px;
+}
+
+header #logo img 
+{
+	width: 75px;
+}
+
+nav
+{
+	background: #878787;
+	display: inline-block;
+	width: 100%
+}
+
+nav ul
+{
+	list-style: none;
+	color: white;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li
+{
+	display: inline-block;
+	margin: 0 2em;
+	vertical-align: top;
+}
+
+nav ul li a
+{
+	display:block;
+	padding: 0.5em;
+}
+
+nav #flechita_nav 
+{
+    float: left;
+    background: #22BCE0;
+    padding: 0.5em 2em;
+    margin-left: 0;
+}
+
+nav #publicar_nav
+{
+	float: right;
+	background: orange;
+	padding: 0.5em 1em;
+	margin-right: 0;
+}
+
+#contenido
+{
+	margin: 1em;
+}
+
+#contenido .item
+{
+	background: white;
+	border-bottom: 3px #22BCE0 solid;
+}
+
+#contenido .item .datos_item .tag_item
+{
+	background: #22BCE0;
+	border-radius: 0.5em;
+	color:white;
+	padding: 0.2em 0.5em;
+	text-decoration: none;
+}
+
+#contenido .item .imagen_item
+{
+	float: left;
+	margin: 0 1em 0 0;
+}
+
+#contenido .item .imagen_item img
+{
+	width: 96px;
+}
+
+#contenido .item p
+{
+	color: #7a7a7a;
+	font-size: 0.9em;
+}
+
+#contenido .item .titulo_item
+{
+	font-size: 1em;
+	padding: 0.5em 0.5em 0;
+	font-style: italic;
+}
+
+#contenido .item .titulo_item a
+{
+	color: #444;
+	text-decoration: none;
+}
